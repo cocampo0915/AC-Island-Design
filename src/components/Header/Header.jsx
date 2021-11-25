@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <header className={styles.header}>
-                <img src="/ACID_Logo_Green-revised 1.png" />
+                <img src="/favicon.ico" style={{ height: '8vh' }} />
                 <Navbar />
             </header>
         </>

@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas: "text-content img-content";
+    height: 788px;
+}
+
+.textContent {
+    grid-area: text-content;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.imgContent {
+    position: relative;
+    grid-area: img-content;
+}
+
+.circle1 {
+    position: absolute;
+    top: 156px;
+    left: 10px;
+    width: 253px;
+    height: 253px;
+    background: #FFA1B1;
+    filter: blur(40px);
+    border-radius: 50%;
+}
+
+.circle2 {
+    position: absolute;
+    top: 197px;
+    left: 384px;
+    width: 269px;
+    height: 269px;
+    background: #FFA1B1;
+    filter: blur(40px);
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    top: 558px;
+    left: 289px;
+    width: 163px;
+    height: 163px;
+    background: #FFA1B1;
+    filter: blur(40px);
+    border-radius: 50%;
+
+}

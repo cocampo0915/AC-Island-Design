@@ -1,0 +1,36 @@
+.img {
+    width: 580px;
+    padding: 1rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "text-items img-items"
+        "text-items img-items";
+    padding: 2rem 0;
+}
+
+.textItems {
+    grid-area: text-items;
+    align-self: flex-start;
+    justify-self: center;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.textItems>h1 {
+    margin: 0;
+}
+
+.imgItems {
+    grid-area: img-items;
+}
+
+.imgContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
