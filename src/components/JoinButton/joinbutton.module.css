@@ -1,9 +1,15 @@
 .button {
-    font-size: 40px;
+    font-size: 2.7vw;
     background-color: #FFE296;
     color: #000000;
     width: 35vw;
-    height: 114px;
+    /* height: 10vh; */
     border-radius: 27px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width: 480px) {
+    .button {
+        font-size: 16px;
+    }
 }

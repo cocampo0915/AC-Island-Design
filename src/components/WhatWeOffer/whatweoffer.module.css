@@ -1,13 +1,12 @@
 .container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr;
-    grid-template-areas: "text-content img-content";
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    /* grid-template-areas: "text-content img-content"; */
     height: 788px;
 }
 
 .textContent {
-    grid-area: text-content;
+    /* grid-area: text-content; */
     justify-self: center;
     align-self: center;
     text-align: center;
@@ -16,7 +15,8 @@
 
 .imgContent {
     position: relative;
-    grid-area: img-content;
+    /* grid-area: img-content; */
+    min-height: 788px;
 }
 
 .circle1 {
@@ -51,4 +51,18 @@
     filter: blur(40px);
     border-radius: 50%;
 
+}
+
+@media screen and (max-width: 960px) {
+    .circle1 {
+        left: 15vw;
+    }
+
+    .circle2 {
+        left: 60vw;
+    }
+
+    .circle3 {
+        left: 45vw;
+    }
 }
