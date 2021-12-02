@@ -19,6 +19,25 @@
     min-height: 788px;
 }
 
+.images {
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.img1 {
+    z-index: 1;
+    float: left;
+    margin-right: 1rem;
+}
+
+.img2 {
+    z-index: 1;
+}
+
+.img3 {
+    z-index: 1;
+}
+
 .circle1 {
     position: absolute;
     top: 156px;
@@ -28,6 +47,7 @@
     background: #FFA1B1;
     filter: blur(40px);
     border-radius: 50%;
+    z-index: -1;
 }
 
 .circle2 {
@@ -39,6 +59,7 @@
     background: #FFA1B1;
     filter: blur(40px);
     border-radius: 50%;
+    z-index: -1;
 }
 
 .circle3 {
@@ -50,6 +71,7 @@
     background: #FFA1B1;
     filter: blur(40px);
     border-radius: 50%;
+    z-index: -1;
 
 }
 
