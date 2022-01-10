@@ -16,7 +16,7 @@
 .imgContent {
     position: relative;
     /* grid-area: img-content; */
-    min-height: 788px;
+    /* min-height: 788px; */
 }
 
 .images {
@@ -24,30 +24,19 @@
     margin-left: 5rem;
     margin-right: 5rem;
     z-index: 1;
-    /* width: 100%; */
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 510px;
 }
 
-.imgColumnRight, .imgColumnLeft {
-    /* width: 50%; */
+.imgColumn {
+    width: 50%;
     /* margin-right: 1rem; */
     float: left;
-    flex: 50%;
-}
-/* .img1 {
-    float: left;
-    margin-right: 1rem;
-} */
-
-/* .img2 {
-    z-index: 1;
 }
 
-.img3 {
-    z-index: 1;
-
-} */
+.img {
+    max-width: 100%;
+    /* min-width: 255px; */
+}
 
 .circle1 {
     position: absolute;
@@ -97,19 +86,10 @@
 
     .circle3 {
         left: 45vw;
+        z-index: -1;
     }
     .images {
         z-index: 1;
-        text-align: center;
+        margin: auto;
     }
-    .img1 {
-        float: none;
-    }
-    /* .img2 {
-        float: right;
-    }
-    .img3 {
-        float: right;
-    } */
-
 }

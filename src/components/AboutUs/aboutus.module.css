@@ -5,6 +5,7 @@
     background-color: #FFD4DC;
     color: #000000;
     padding: 3rem 0;
+    min-width: 100vw;
 }
 
 .imgContent {

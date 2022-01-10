@@ -13,12 +13,12 @@ const WhatWeOffer = () => {
                     </div>
                     <div className={styles.imgContent}>
                         <div className={styles.images}>
-                            <div className={styles.imgColumnLeft}>
-                                <img className={styles.img1} src="/ACID_Discord/ACID_Discord_06.png" alt="discord comment from a server user" />
+                            <div className={styles.imgColumn}>
+                                <img className={styles.img} src="/ACID_Discord/ACID_Discord_06.png" alt="discord comment from a server user" />
                             </div>
-                            <div className={styles.imgColumnRight}>
-                              <img className={styles.img2} src="/ACID_Discord/ACID_Discord_07.png" alt="discord comment from a server user" />
-                            <img className={styles.img3} src="/ACID_Discord/ACID_Discord_08.png" alt="discord comment from a server user" />
+                            <div className={styles.imgColumn}>
+                              <img className={styles.img} src="/ACID_Discord/ACID_Discord_07.png" alt="discord comment from a server user" />
+                            <img className={styles.img} src="/ACID_Discord/ACID_Discord_08.png" alt="discord comment from a server user" />
                             </div>
                             
                         </div>

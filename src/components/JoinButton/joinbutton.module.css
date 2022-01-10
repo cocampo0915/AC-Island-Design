@@ -1,10 +1,10 @@
 .button {
-    font-size: 2.7vw;
+    font-size: 4ch;
     background-color: #FFE296;
     color: #000000;
-    width: 35vw;
+    min-width: 30vw;
     height: auto;
-    padding: 1ch 0;
+    padding: 1ch 2ch;
     border-radius: 27px;
     border: none;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 480px) {
     .button {
-        font-size: 16px;
+        font-size: 24px;
     }
 }

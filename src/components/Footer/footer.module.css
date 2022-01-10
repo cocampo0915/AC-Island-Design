@@ -5,8 +5,10 @@
     background-color: #FFA1B1;
     color: #000000;
     padding: 1rem 0;
+    min-width: 100vw;
 }
 
 .text {
     margin: 0;
+    text-align: center;
 }
