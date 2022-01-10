@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   background-color: #313131;
   color: #FFFFFF;
-  width: fit-content;
+  width: 100%;
 }
 
 h1 {
@@ -21,4 +21,8 @@ h2 {
 
 p {
   font-size: 20px;
+}
+
+.App {
+  width: 100%;
 }
